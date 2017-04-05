@@ -4,10 +4,24 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecepieListComponent } from './recipes/recepie-list/recepie-list.component';
+import { RecepieDetailComponent } from './recipes/recepie-detail/recepie-detail.component';
+import { RecepieItemComponent } from './recipes/recepie-list/recepie-item/recepie-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecepieListComponent,
+    RecepieDetailComponent,
+    RecepieItemComponent,
+    ShoppingListComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
